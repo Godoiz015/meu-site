@@ -155,9 +155,6 @@
         <button class="copy-btn" onclick="copiarChave()">Copiar</button>
       </p>
     </div>
-
-
-   
   </div>
 
   <section class="section">
@@ -172,7 +169,18 @@
 
   <section class="section">
     <h3>Cadastro para Participação</h3>
-    <iframe class="questio" width="800px" height="800px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=3C52UFD5SE-0Oew0IoJgDBsOxDKuqjpBqSlEumSpOLNURTQzOUczVzhLU0VSNU40WlcwWE1TRTJETi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+    <form action="https://formspree.io/f/maykpnkp" method="POST">
+      <label for="name">Nome Completo:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="phone">Telefone (Whatsapp):</label>
+      <input type="tel" id="phone" name="phone" required />
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required />
+
+      <input type="submit" value="Participar" />
+    </form>
   </section>
 
   <section class="section">
@@ -190,7 +198,6 @@
   <footer>
     © 2025 E.E. PEI EPITÁCIO PESSOA - 9º ANO A | Contato: (15) 99754-0738 | Instagram:<a color="white" target="_blank" href="https://www.instagram.com/9a_epitaciopessoa/profilecard/?igsh=dzhwNnY4cHoyeXNo">@9a_epitáciopessoa</a>
   </footer>
-
 
   <script>
     // Copiar chave Pix
